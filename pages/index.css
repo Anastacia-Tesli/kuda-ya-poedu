@@ -1,5 +1,25 @@
 @import url(../vendor/normalize.css);
-
+@import url(../vendor/fonts/fonts.css);
+@import url(../blocks/page/page.css);
 @import url(../blocks/header/header.css);
-
+@import url(../blocks/navigation//navigation.css);
+@import url(../blocks/navigation/__links/navigation__links.css);
+@import url(../blocks/navigation/__link/navigation__link.css);
+@import url(../blocks/intro/intro.css);
+@import url(../blocks/intro/__text/intro__text.css);
+@import url(../blocks/title/title.css);
+@import url(../blocks/subtitle/subtitle.css);
+@import url(../blocks/intro/image/intro__image.css);
+@import url(../blocks/places/places.css);
+@import url(../blocks/place/place.css);
+@import url(../blocks/place/__image/place__image.css);
+@import url(../blocks/place/__text/place__text.css);
+@import url(../blocks/place/__paragraphs/place__paragraphs.css);
+@import url(../blocks/paragraph/paragraph.css);
+@import url(../blocks/people/people.css);
+@import url(../blocks/people/__subtitle/people__subtitle.css);
+@import url(../blocks/people/__quotes/people__quotes.css);
+@import url(../blocks/people/__quote/people__quote.css);
+@import url(../blocks/people/__quote-author/people__quote-author.css);
 @import url(../blocks/footer/footer.css);
+@import url(../blocks/footer/__copyright/footer__copyright.css);
