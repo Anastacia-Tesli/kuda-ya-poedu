@@ -1,7 +1,7 @@
 .intro__text {
-    max-width: 510px;
+    max-width: 520px;
     display: flex;
     flex-direction: column;
     justify-content: center;
-    gap: 45px;
+    gap: 25px;
 }

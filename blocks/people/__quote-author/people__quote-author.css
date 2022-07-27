@@ -1,6 +1,7 @@
 .people__quote-author {
     text-transform: uppercase;
     font-weight: 700;
-    font-size: 10px;
+    font-size: 11px;
+    word-spacing: 3px;
     line-height: 1.5;
 }

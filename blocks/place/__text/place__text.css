@@ -1,8 +1,7 @@
 .place__text {
     max-width: 380px;
-    margin: 70px;
+    margin: 60px 70px 85px;
     display: flex;
     flex-direction: column;
-    justify-content: center;
-    gap: 190px;
+    justify-content: space-between;
 }
