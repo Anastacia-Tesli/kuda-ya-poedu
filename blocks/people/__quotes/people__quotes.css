@@ -1,5 +1,12 @@
 .people__quotes {
     margin: 0;
     display: flex;
+    flex-wrap: wrap;
     gap: 70px;
+}
+@media screen and (max-width: 768px) {
+    .people__quotes { 
+        justify-content: center;
+        gap: 30px;
+    }
 }

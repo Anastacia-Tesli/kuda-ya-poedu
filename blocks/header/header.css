@@ -1,3 +1,13 @@
 .header {
     margin: 50px 70px 85px;
 }
+@media screen and (max-width: 1024px) {
+    .header { 
+        margin: 40px;
+    }
+}
+@media screen and (max-width: 768px) {
+    .header { 
+        margin: 15px 15px 25px;
+    }
+}

@@ -3,3 +3,16 @@
     display: flex;
     gap: 180px;
 }
+@media screen and (max-width: 1024px) {
+    .intro {
+        margin-left: 40px;
+        gap: 80px;
+    }
+}
+@media screen and (max-width: 768px) {
+    .intro { 
+        margin: 0 0 40px;
+        flex-direction: column-reverse;
+        gap: 40px;
+    }
+}
