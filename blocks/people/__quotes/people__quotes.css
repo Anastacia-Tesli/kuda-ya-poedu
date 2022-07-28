@@ -4,9 +4,9 @@
     flex-wrap: wrap;
     gap: 70px;
 }
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 767px) {
     .people__quotes { 
         justify-content: center;
-        gap: 30px;
+        gap: 50px;
     }
 }

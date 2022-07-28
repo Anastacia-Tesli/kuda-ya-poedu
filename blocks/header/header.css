@@ -1,13 +1,13 @@
 .header {
-    margin: 50px 70px 85px;
+    padding: 50px 70px 85px;
 }
-@media screen and (max-width: 1024px) {
+@media screen and (max-width: 1023px) {
     .header { 
-        margin: 40px;
+        padding: 40px;
     }
 }
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 767px) {
     .header { 
-        margin: 15px 15px 25px;
+        padding: 15px 15px 25px;
     }
 }

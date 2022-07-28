@@ -1,18 +1,14 @@
 .intro {
-    margin: 0 auto 132px 70px;
+    margin: 0;
+    padding: 0 0 130px 0;
     display: flex;
-    gap: 180px;
 }
-@media screen and (max-width: 1024px) {
-    .intro {
-        margin-left: 40px;
-        gap: 80px;
-    }
-}
-@media screen and (max-width: 768px) {
+
+@media screen and (max-width: 767px) {
     .intro { 
-        margin: 0 0 40px;
         flex-direction: column-reverse;
-        gap: 40px;
+        align-items: center;
+        row-gap: 70px;
+        padding-bottom: 100px;
     }
 }
