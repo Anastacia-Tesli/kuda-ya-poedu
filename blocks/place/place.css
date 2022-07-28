@@ -1,7 +1,16 @@
 .place {
     display: flex;
 }
-.place:nth-child(2) {
+.place:nth-child(2n) {
     flex-direction: row-reverse;
     justify-content: space-between;
+}
+
+@media screen and (max-width: 767px) {
+    .place {
+        flex-direction: column;
+    }
+    .place:nth-child(2n) {
+        flex-direction: column;
+    }
 }

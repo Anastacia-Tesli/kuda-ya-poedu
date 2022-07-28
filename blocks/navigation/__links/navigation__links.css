@@ -5,3 +5,9 @@
     margin: 0;
     padding: 0;
 }
+
+@media screen and (max-width: 767px) {
+    .navigation__links {
+        gap: 15px;
+    }
+}

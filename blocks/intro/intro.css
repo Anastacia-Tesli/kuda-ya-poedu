@@ -1,5 +1,14 @@
 .intro {
-    margin: 0 auto 132px 70px;
+    margin: 0;
+    padding: 0 0 130px 0;
     display: flex;
-    gap: 180px;
+}
+
+@media screen and (max-width: 767px) {
+    .intro { 
+        flex-direction: column-reverse;
+        align-items: center;
+        row-gap: 70px;
+        padding-bottom: 100px;
+    }
 }

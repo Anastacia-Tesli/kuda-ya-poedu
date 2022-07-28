@@ -2,3 +2,8 @@
     max-width: 400px;
     margin: 35px 0 120px;
 }
+@media screen and (max-width: 767px) {
+    .people__subtitle { 
+        margin: 25px 0 40px;
+    }
+}

@@ -1,3 +1,13 @@
 .people {
-    margin: 130px 70px;
+    padding: 130px 70px 110px;
+}
+@media screen and (max-width: 1023px) {
+    .people { 
+        padding-left: 40px;
+    }
+}
+@media screen and (max-width: 767px) {
+    .people { 
+        padding: 40px 15px;
+    }
 }

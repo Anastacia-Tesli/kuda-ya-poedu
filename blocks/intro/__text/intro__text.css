@@ -1,7 +1,14 @@
 .intro__text {
-    max-width: 520px;
+    max-width: 640px;
+    width: 100%;
     display: flex;
     flex-direction: column;
     justify-content: center;
     gap: 25px;
+}
+@media screen and (max-width: 767px) {
+    .intro__text { 
+        margin-left: 15px;
+        margin-right: 15px;
+    }
 }

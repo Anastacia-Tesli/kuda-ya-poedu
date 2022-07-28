@@ -1,0 +1,22 @@
+.place__image-wrapper {
+  width: 50%;
+  height: 533px;
+}
+
+@media screen and (max-width: 1023px) {
+  .place__image-wrapper { 
+    height: 425px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .place__image-wrapper { 
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 424px) {
+  .place__image-wrapper { 
+    height: 320px;
+  }
+}

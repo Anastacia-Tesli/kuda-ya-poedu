@@ -1,0 +1,14 @@
+.intro__image {
+    max-width: 355px;
+    width: 100%;
+    max-height: 355px;
+    object-fit: cover;
+    object-position: center;
+    display: block;
+    margin: 0 auto;
+}
+@media screen and (max-width: 767px) {
+    .intro__image { 
+        max-width: 100%;
+    }
+}
