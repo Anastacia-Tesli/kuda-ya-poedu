@@ -15,14 +15,17 @@
   left: 0;
   right: 0;
   display: flex;
-  justify-content: flex-end;
-  align-items: flex-end;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
   opacity: 0;
   transition: opacity 0.4s ease-out;
 }
+
 .place__image-wrapper:hover::before{
   opacity: 0.7;
 }
+
 @media screen and (max-width: 1023px) {
   .place__image-wrapper { 
     height: 425px;
