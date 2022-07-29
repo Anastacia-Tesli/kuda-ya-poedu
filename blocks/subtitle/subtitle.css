@@ -5,3 +5,8 @@
     line-height: 1.4;
     letter-spacing: 1.15px;
 }
+@media screen and (max-width: 767px) {
+    .subtitle { 
+      font-size: 22px;
+    }
+  }
